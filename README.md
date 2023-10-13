@@ -7,7 +7,7 @@ cd edge_insights_industrial/<br />
 chmod 775 edgesoftware<br />
 ./edgesoftware install<br />
 Product Key: cb67e844-365b-4c6c-9c40-9a4310496115<br />
-EII 4.0 document : https://eiidocs.intel.com/4.0/<br />
+EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 ./edgesoftware --version<br />
 ./edgesoftware list<br />
 ./edgesoftware log<br />
