@@ -21,7 +21,7 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 
 <br />
 # Execute the builder.py script<br />
-python3 builder.py -f usecases/video-streaming.yml<br />
+<pre>python3 builder.py -f usecases/video-streaming.yml</pre>pre><br />
 <br /><br />
 Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
