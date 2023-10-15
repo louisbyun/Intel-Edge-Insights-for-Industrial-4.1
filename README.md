@@ -34,9 +34,9 @@ To run the containers in the detached mode, run the following command:<br />
 </code></pre></div>
 <br />
 # Once provisioning is done run other services<br />
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker-compose up -d"><pre class="notranslate"><code>docker-compose up -d
-</code></pre></div>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker-compose build"><pre class="notranslate"><code>docker-compose build
+</code></pre></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker-compose up -d"><pre class="notranslate"><code>docker-compose up -d
 </code></pre></div>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker-compose down"><pre class="notranslate"><code>docker-compose down
 </code></pre></div>
