@@ -21,16 +21,16 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 
 <br />
 # Execute the builder.py script<br />
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo raspi-config"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="python3 builder.py"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
 </code></pre></div><br />
 <br /><br />
 Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
 # Run config manager agent service first using the below command<br />
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo raspi-config"><pre class="notranslate"><code>docker-compose up -f ia_configmgr_agent
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker-compose up"><pre class="notranslate"><code>docker-compose up -f ia_configmgr_agent
 </code></pre></div><br />
 # Check config manager agent logs to see if provisioning is complete<br />
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo raspi-config"><pre class="notranslate"><code>docker logs -f ia_configmgr_agent
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker logs"><pre class="notranslate"><code>docker logs -f ia_configmgr_agent
 </code></pre></div>
 <br />
 # Once provisioning is done run other services<br />
