@@ -15,7 +15,7 @@ EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 
 <br />
 <br />
-# Execute the builder.py script
+# Execute the builder.py script<br />
 python3 builder.py -f usecases/video-streaming.yml<br />
 docker-compose build<br />
 docker-compose up -d<br />
