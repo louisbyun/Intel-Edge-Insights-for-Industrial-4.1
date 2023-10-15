@@ -26,6 +26,8 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
 # Run config manager agent service first using the below command<br />
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo raspi-config"><pre class="notranslate"><code>docker-compose up -f ia_configmgr_agent
+</code></pre></div>
 docker-compose up -f ia_configmgr_agent<br />
 # Check config manager agent logs to see if provisioning is complete<br />
 docker logs -f ia_configmgr_agent<br />
