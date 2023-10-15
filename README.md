@@ -22,8 +22,8 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 <br />
 # Execute the builder.py script<br />
 python3 builder.py -f usecases/video-streaming.yml<br />
-
-Run the Containers<br />
+<br /><br />
+Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
 # Run config manager agent service first using the below command<br />
 docker-compose up -f ia_configmgr_agent<br />
