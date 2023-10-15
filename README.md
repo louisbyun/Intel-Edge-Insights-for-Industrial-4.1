@@ -17,7 +17,6 @@ EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 ./edgesoftware log<br />
 ./edgesoftware export<br />
 
-<br />
 USB v4l2 Cameras<br />
 For information or configurations details on the USB cameras, refer to docs/usb_doc.md.<br />
 Refer the following configuration for configuring the config.json([WORK_DIR]/IEdgeInsights/EdgeVideoAnalyticsMicroservice/eii/config.json) file for USB v4l2 camera.<br />
@@ -29,7 +28,7 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 # Execute the builder.py script<br />
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="python3 builder.py"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
 </code></pre></div><br />
-<br /><br />
+<br />
 Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
 # Run config manager agent service first using the below command<br />
