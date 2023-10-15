@@ -21,7 +21,8 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 
 <br />
 # Execute the builder.py script<br />
-<pre>python3 builder.py -f usecases/video-streaming.yml</pre>pre><br />
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo raspi-config"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
+</code></pre></div><br />
 <br /><br />
 Run the Containers<br />
 To run the containers in the detached mode, run the following command:<br />
