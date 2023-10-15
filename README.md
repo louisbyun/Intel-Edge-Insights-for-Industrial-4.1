@@ -21,9 +21,11 @@ EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 USB v4l2 Cameras<br />
 For information or configurations details on the USB cameras, refer to docs/usb_doc.md.<br />
 Refer the following configuration for configuring the config.json([WORK_DIR]/IEdgeInsights/EdgeVideoAnalyticsMicroservice/eii/config.json) file for USB v4l2 camera.<br />
-"pipeline": "v4l2src device=/dev/<DEVICE_VIDEO_NODE> name=source ! video/x-raw,format=YUY2 ! videoconvert ! video/x-raw,format=BGR ! appsink name=destination"<br />
 
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="pipeline camera"><pre class="notranslate"><code>"pipeline": "v4l2src device=/dev/<DEVICE_VIDEO_NODE> name=source ! video/x-raw,format=YUY2 ! videoconvert ! video/x-raw,format=BGR ! appsink name=destination"
+</code></pre></div><br />
 <br />
+
 # Execute the builder.py script<br />
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="python3 builder.py"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
 </code></pre></div><br />
