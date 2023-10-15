@@ -12,8 +12,11 @@ EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 ./edgesoftware list<br />
 ./edgesoftware log<br />
 ./edgesoftware export<br />
+
 <br />
 <br />
+# Execute the builder.py script
+python3 builder.py -f usecases/video-streaming.yml<br />
 docker-compose build<br />
 docker-compose up -d<br />
 docker ps<br />
