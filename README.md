@@ -14,7 +14,7 @@ EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 ./edgesoftware export<br />
 
 <br />
-USB v4l2 Cameras<br />
+USB v4l2 Cameras<br />
 For information or configurations details on the USB cameras, refer to docs/usb_doc.md.<br />
 Refer the following configuration for configuring the config.json([WORK_DIR]/IEdgeInsights/EdgeVideoAnalyticsMicroservice/eii/config.json) file for USB v4l2 camera.<br />
 "pipeline": "v4l2src device=/dev/<DEVICE_VIDEO_NODE> name=source ! video/x-raw,format=YUY2 ! videoconvert ! video/x-raw,format=BGR ! appsink name=destination"<br />
