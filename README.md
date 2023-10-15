@@ -25,7 +25,7 @@ Refer the following configuration for configuring the config.json([WORK_DIR]/IEd
 </code></pre></div><br />
 <br />
 
-# Execute the builder.py script<br />
+# Execute the builder.py script
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="python3 builder.py"><pre class="notranslate"><code>python3 builder.py -f usecases/video-streaming.yml
 </code></pre></div><br />
 <br />
