@@ -3,9 +3,13 @@ Intel® Edge Insights for Industrial<br />
 
 ssh root@xx.xxx.xx.xxx <br />
 EII Install.<br />
-cd edge_insights_industrial/<br />
-chmod 775 edgesoftware<br />
-./edgesoftware install<br />
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cd edge_insights_industrial"><pre class="notranslate"><code>cd edge_insights_industrial/
+</code></pre></div><br />
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod 775 edgesoftware"><pre class="notranslate"><code>chmod 775 edgesoftware
+</code></pre></div><br />
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="./edgesoftware install"><pre class="notranslate"><code>./edgesoftware install
+</code></pre></div><br />
+
 Product Key: cb67e844-365b-4c6c-9c40-9a4310496115<br />
 EII 4.1 document : https://eiidocs.intel.com/4.1/<br />
 ./edgesoftware --version<br />
