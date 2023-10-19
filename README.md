@@ -1,4 +1,4 @@
-# EII<br />
+# EII 4.1.0<br />
 Intel® Edge Insights for Industrial<br />
 
 ssh root@xx.xxx.xx.xxx <br />
@@ -52,4 +52,7 @@ To run the containers in the detached mode, run the following command:<br />
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker stop"><pre class="notranslate"><code>docker stop ***
 </code></pre></div><br />
 
-When testing with multiple computers using one product key, the localhost host IP may not change.
+When testing with multiple computers using one product key, the localhost host IP may not change.<br />
+Dev mode: http://xxx.xxx.xxx.xxx:5004/<br />
+Normal mode: http://xxx.xxx.xxx.xxx:5004/<br />
+Localhost Basic port: http://xxx.xxx.xxx.xxx:8888/<br />
