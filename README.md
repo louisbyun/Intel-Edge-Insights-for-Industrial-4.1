@@ -50,4 +50,6 @@ To run the containers in the detached mode, run the following command:<br />
 </code></pre></div>
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker stop"><pre class="notranslate"><code>docker stop ***
-</code></pre></div>
+</code></pre></div><br />
+
+When testing with multiple computers using one product key, the localhost host IP may not change.
