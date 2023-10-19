@@ -54,5 +54,5 @@ To run the containers in the detached mode, run the following command:<br />
 
 When testing with multiple computers using one product key, the localhost host IP may not change.<br />
 Dev mode: http://xxx.xxx.xxx.xxx:5004/<br />
-Normal mode: http://xxx.xxx.xxx.xxx:5004/<br />
+Normal mode: https://xxx.xxx.xxx.xxx:5003/<br />
 Localhost Basic port: http://xxx.xxx.xxx.xxx:8888/<br />
