@@ -52,9 +52,27 @@ To run the containers in the detached mode, run the following command:<br />
 </code></pre></div>
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker stop"><pre class="notranslate"><code>docker stop ***
+
 </code></pre></div><br />
 
 When testing with multiple computers using one product key, the localhost host IP may not change.<br />
 Dev mode: http://xxx.xxx.xxx.xxx:5004/<br />
 Normal mode: https://xxx.xxx.xxx.xxx:5003/<br />
 Localhost Basic port: http://xxx.xxx.xxx.xxx:8888/<br />
+<br /><br />
+Test cases for CPU and Merory Usages<br /><br />
+
+AppContexts:<br />
+- ConfigMgrAgent<br />
+- EdgeVideoAnalyticsMicroservice/eii<br />
+- Visualizer/multimodal-data-visualization-streaming/eii<br />
+- Frame size 640 x 640<br />
+![docker-stats-graph_320x320-2Cams](https://github.com/louisbyun/Intel-Edge-Insights-for-Industrial-4.1/assets/55345082/2a49aac7-6726-42ec-a4be-58b2cc3a9061)
+
+![docker-stats-graph_640x640-2Cams](https://github.com/louisbyun/Intel-Edge-Insights-for-Industrial-4.1/assets/55345082/2b1cd016-7b14-4339-9683-9a1085aee798)
+
+![docker_stats_graph-no-refreshing](https://github.com/louisbyun/Intel-Edge-Insights-for-Industrial-4.1/assets/55345082/c2e1b752-c13e-4597-8ff2-ddea59864e0d)
+
+
+
+
