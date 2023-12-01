@@ -1,6 +1,11 @@
 # EII 4.1.0<br />
 Intel® Edge Insights for Industrial<br />
 
+Over the past few months, I have been working on developing a robot-driven backend system for extracting defective products using artificial intelligence machine learning models that can be used in factories.
+We are validating and developing Intel Edge Insights for Industrial.
+This system from Intel doesn't seem to have been verified in the market yet, so we're working hard to verify it.
+So, I would like to share the verified results here.
+
 Test cases for CPU and Merory Usages<br />
 
 1. Use cases: video-streaming-evam.yml
