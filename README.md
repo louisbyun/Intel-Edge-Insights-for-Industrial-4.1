@@ -61,7 +61,6 @@ Normal mode: https://xxx.xxx.xxx.xxx:5003/<br />
 Localhost Basic port: http://xxx.xxx.xxx.xxx:8888/<br />
 <br /><br />
 Test cases for CPU and Merory Usages<br /><br />
-
 AppContexts:<br />
 - ConfigMgrAgent<br />
 - EdgeVideoAnalyticsMicroservice/eii<br />
