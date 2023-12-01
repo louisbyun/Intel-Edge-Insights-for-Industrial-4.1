@@ -1,12 +1,12 @@
 # EII 4.1.0<br />
 Intel® Edge Insights for Industrial<br />
 
-Test cases for CPU and Merory Usages<br /><br />
+Test cases for CPU and Merory Usages<br />
 
 1. Use cases: video-streaming-evam.yml
-2. System Hardware Specification:
-Processor: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz 2.80 GHz
-Installed RAM: 8.00GB (7.68GB usable)
+2. System Hardware Specification:<br />
+Processor: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz 2.80 GHz<br />
+Installed RAM: 8.00GB (7.68GB usable)<br />
 System Type: 64-bit operating system, x64-based processor
 
 AppContexts:<br />
