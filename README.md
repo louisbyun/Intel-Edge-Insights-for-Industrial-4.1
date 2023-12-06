@@ -25,6 +25,21 @@ AppContexts:<br />
 
 ![docker_stats_graph-no-refreshing](https://github.com/louisbyun/Intel-Edge-Insights-for-Industrial-4.1/assets/55345082/c2e1b752-c13e-4597-8ff2-ddea59864e0d)
 
+I have conducted the test once again. It is EII version 4.1.0. For the test conditions, I limited the time of EVAM's Publisher to 0.1 seconds and conducted the test. However, the issue still persists where the Web Visualizer's CPU usage does not drop once it goes up.
+
+Below are the test conditions.
+
+AppContexts:
+ConfigMgrAgent
+EdgeVideoAnalyticsMicroservice/eii
+Visualizer/multimodal-data-visualization-streaming/eii
+USB Camera 2ea (Multi Instance)
+ 
+My test results are as follows. Unlike the previous test, the frame size of the camera remained the same as the original source.
+
+![CPU and Memory Usage Over Time for Visualizer and EVAM (v4 1 0) - Publisher(0 1s delay) - 2 Cams](https://github.com/louisbyun/Intel-Edge-Insights-for-Industrial-4.1/assets/55345082/5b8424f5-ff62-4f23-b71a-f194bce38655)
+
+
 How to Install Intel Edge Insights for Industrial<br />
 ssh root@xx.xxx.xx.xxx <br />
 EII Install.<br />
